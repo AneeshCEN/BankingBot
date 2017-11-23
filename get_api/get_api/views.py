@@ -35,7 +35,7 @@ def clear_context(user_id):
     request.session_id = user_id
     request.query = 'hi'
     response = yaml.load(request.getresponse())
-    print response
+    print (response)
 
 
 @permission_classes((permissions.AllowAny,))
@@ -57,7 +57,7 @@ class TestAPI(viewsets.ViewSet):
             return Response(question)
         
         question = call_api(question)
+        print (question)
 
-        question['messageSource'] = 'messageFromBot'
         return Response(question)
         

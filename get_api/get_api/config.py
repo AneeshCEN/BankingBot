@@ -14,3 +14,16 @@ How may I help you today?'
 
 top_level_buttons = ['Loan Eligibility Criteria', 'Forgot my pin number', '\
 IFSC code', 'Something else']
+
+city_names = ['AASULKAR', 'ABHANA', 'ABHONA', 'ABU', 'ABHOYAPURI',
+              'ABINASHPUR']
+
+ask_for_city = ['Please select a city name']
+bank_details = ['Please look at the branch details i could gather for given city']
+
+
+    
+host_inventory = "192.168.0.28"
+user_inventory="user"
+passwd="kreara@1"
+database="ggc"
